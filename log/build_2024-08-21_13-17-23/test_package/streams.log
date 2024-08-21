@@ -1,0 +1,33 @@
+[0.348s] Invoking command in '/workspaces/Ros2Docker/test_package': PYTHONPATH=/workspaces/Ros2Docker/build/test_package/prefix_override:/workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_package build --build-base /workspaces/Ros2Docker/build/test_package/build install --record /workspaces/Ros2Docker/build/test_package/install.log --install-scripts $base/lib/test_package --single-version-externally-managed
+[0.451s] running egg_info
+[0.452s] creating ../build/test_package/test_package.egg-info
+[0.453s] writing ../build/test_package/test_package.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../build/test_package/test_package.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../build/test_package/test_package.egg-info/entry_points.txt
+[0.456s] writing requirements to ../build/test_package/test_package.egg-info/requires.txt
+[0.457s] writing top-level names to ../build/test_package/test_package.egg-info/top_level.txt
+[0.459s] writing manifest file '../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.483s] reading manifest file '../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.487s] running build_py
+[0.488s] creating /workspaces/Ros2Docker/build/test_package/build
+[0.489s] creating /workspaces/Ros2Docker/build/test_package/build/lib
+[0.489s] creating /workspaces/Ros2Docker/build/test_package/build/lib/test_package
+[0.490s] copying test_package/__init__.py -> /workspaces/Ros2Docker/build/test_package/build/lib/test_package
+[0.490s] running install
+[0.491s] running install_lib
+[0.492s] creating /workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages/test_package
+[0.493s] copying /workspaces/Ros2Docker/build/test_package/build/lib/test_package/__init__.py -> /workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages/test_package
+[0.493s] byte-compiling /workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages/test_package/__init__.py to __init__.cpython-38.pyc
+[0.495s] running install_data
+[0.496s] creating /workspaces/Ros2Docker/install/test_package/share/ament_index
+[0.498s] creating /workspaces/Ros2Docker/install/test_package/share/ament_index/resource_index
+[0.499s] creating /workspaces/Ros2Docker/install/test_package/share/ament_index/resource_index/packages
+[0.500s] copying resource/test_package -> /workspaces/Ros2Docker/install/test_package/share/ament_index/resource_index/packages
+[0.501s] copying package.xml -> /workspaces/Ros2Docker/install/test_package/share/test_package
+[0.501s] running install_egg_info
+[0.503s] Copying ../build/test_package/test_package.egg-info to /workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages/test_package-0.0.0-py3.8.egg-info
+[0.515s] running install_scripts
+[0.531s] writing list of installed files to '/workspaces/Ros2Docker/build/test_package/install.log'
+[0.546s] Invoked command in '/workspaces/Ros2Docker/test_package' returned '0': PYTHONPATH=/workspaces/Ros2Docker/build/test_package/prefix_override:/workspaces/Ros2Docker/install/test_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_package build --build-base /workspaces/Ros2Docker/build/test_package/build install --record /workspaces/Ros2Docker/build/test_package/install.log --install-scripts $base/lib/test_package --single-version-externally-managed

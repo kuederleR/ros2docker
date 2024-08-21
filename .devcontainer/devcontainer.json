@@ -1,0 +1,8 @@
+{
+    "name": "ROS Development Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [
+        11311
+    ]
+    // "postCreateCommand": "pip install -r /workspace/python_packages.txt"
+}
