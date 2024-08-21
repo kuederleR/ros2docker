@@ -30,7 +30,10 @@ RUN apt-get update && apt-get install -y \
     libxcb-shape0 \
     libxcb-shm0 \
     libxcb-xfixes0 \
-    libxcb-xkb1
+    libxcb-xkb1 \
+    xauth
+
+# ENV DISPLAY=:0
 
 RUN pip install pyqt6
 # Set the entrypoint command
