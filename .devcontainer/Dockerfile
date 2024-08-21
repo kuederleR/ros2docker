@@ -14,6 +14,7 @@ COPY . /workspace
 RUN colcon build
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN apt-get update && apt-get install -y python3-pip
+# RUN sudo apt-get install ros-$ROS_DISTRO-demo-nodes-py
 # Install Python packages from python_packages.txt
 # RUN pip install -r /workspace/python_packages.txt
 # Install necessary dependencies for running PyQt6 GUI applications
