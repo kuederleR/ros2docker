@@ -32,7 +32,8 @@ RUN apt-get update && apt-get install -y \
     libxcb-shm0 \
     libxcb-xfixes0 \
     libxcb-xkb1 \
-    xauth
+    xauth \
+    ros-$ROS_DISTRO-demo-nodes-py
 
 # ENV DISPLAY=:0
 
